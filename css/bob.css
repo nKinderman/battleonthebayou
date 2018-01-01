@@ -1,3 +1,7 @@
+html, body{
+  height: 100%;
+}
+
 a{
   text-shadow: 0px 0px 0px;
 }
@@ -10,6 +14,13 @@ a{
 
 #bottom{
   margin-bottom: 10%
+}
+
+.buttonStyles{
+  font-family: lato;
+  font-size: 1.15em;
+  margin: 15px;
+  padding: 10px;
 }
 
 #calendarBlock{
@@ -34,8 +45,19 @@ a{
   right: 15em;
 }
 
+#footer{
+  width: 100%;
+  padding: 10px;
+}
+
+#footerIndex{
+  width: 100%;
+  padding: 10px;
+  color: white;
+}
+
 #footerStyle{
-    vertical-align: text-bottom; 
+    vertical-align: text-bottom;
 }
 
 h1{
@@ -110,7 +132,7 @@ html{
 }
 
 #infoblock{
-  padding: 10px 10px 10px 10px;
+  padding: 8px;
   /*margin: 10px 0px 0px 0px;*/
   text-align: center;
   font-size: 1.25em;
